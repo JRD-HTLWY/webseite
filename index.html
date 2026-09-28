@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="utf-8">
@@ -11,18 +11,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Geschichte des Computers</title>
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
 </head>
 <body onload="ladeQuizFragen()">
 
     <!--Einleitungstext-->
     <div class="mark" aria-hidden="true">?</div>
-    <h1 id="title"></h1>
+    <h1 id="title">Squizle</h1>
     <p id="desc"></p>
-    <button class="btn" id="start" type="button"></button>
+    <button class="btn" id="start" type="button">Willkommen</button>
 
-    <h4 id="ausgabe"></h4>
+    <div id="ausgabe"></div>
     <input type="text" id="eingabe">
-    <button onclick="ueberpruefeAntwort()">Überprüfe</button>
+    <button type="button" onclick="ueberpruefeAntwort()">Überprüfe</button>
 </body>
 </html>
