@@ -3,42 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Quiz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main>
-  <div class="mark" aria-hidden="true">?</div>
-  <h1 id="title"></h1>
-  <p id="desc"></p>
-  <button class="btn" id="start" type="button"></button>
-</main>
-
-<script>
-// Hier anpassen
-const QUIZ = {
-  title:  "Wie gut kennst du dich aus?",
-  desc:   "Teste dein Wissen. Kein Zeitlimit.",
-  button: "Quiz starten",
-  onStart() { location.href = "quiz.html"; }   // oder eigene Funktion
-};
-
-document.title = QUIZ.title;
-title.textContent = QUIZ.title;
-desc.textContent = QUIZ.desc;
-start.textContent = QUIZ.button;
-start.addEventListener("click", QUIZ.onStart);
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geschichte des Computers</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geschichte des Computers</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="script.js"></script>
+
+    <!--Einleitungstext-->
+    <div class="mark" aria-hidden="true">?</div>
+    <h1 id="title"></h1>
+    <p id="desc"></p>
+    <button class="btn" id="start" type="button"></button>
 
     <h4 id="ausgabe"></h4>
     <input type="text" id="eingabe">
