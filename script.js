@@ -12,20 +12,33 @@ async function ladeQuizFragen() {
 window.quizFragenBereit = ladeQuizFragen();
 
 let frage = true;
+let aktuelleFrage;
 
 function ueberpruefeAntwort(){
     if(frage){
-
+        neueFrage();
+    }
+    else{
+        loesung();
     }
     document.getElementById("ausgabe").innerText = "Hallo Welt";
 }
 
 function neueFrage(){
-
+    aktuelleFrage = alleFragen[Math.floor(Math.random() * alleFragen.lenght)];
+    document.getElementById("ausgabe").innerText = zufallsFrage.question;
+    frage = false;
 }
 
 function loesung(){
-
+    let eingabe = document.getElementById("eingabe");
+    if(eingabe.innerText == aktuelleFrage.answer){
+        ausgabe.innerText = "Wunderbar";
+    }
+    else{
+        ausgabe.innerText = "Leider falsch";
+    }
+    frage = true;
 }
 
 //code von Darwins KI
