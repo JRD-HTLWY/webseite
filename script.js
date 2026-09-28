@@ -4,11 +4,21 @@ let frage = true;
 let aktuelleFrage;
  
 async function ladeQuizFragen() {
-  const res = await fetch('./fragen.json');
-  if (!res.ok) throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
-  quizFragen = await res.json();
-  ueberpruefeAntwort();
+  try {
+    const res = await fetch('./fragen.json');
+
+    if (!res.ok) {
+      throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
+    }
+
+    quizFragen = await res.json();
+
+    ueberpruefeAntwort();
+  } catch (error) {
+    console.error('Fehler beim Laden der Quizfragen:', error);
+  }
 }
+
 
 function ueberpruefeAntwort(){
     if(frage){
