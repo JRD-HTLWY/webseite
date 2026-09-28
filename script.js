@@ -1,18 +1,13 @@
 
-window.quizFragen = [];
+let quizFragen = [];
+let frage = true;
+let aktuelleFrage;
  
 async function ladeQuizFragen() {
   const res = await fetch('./fragen.json');
   if (!res.ok) throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
-  window.quizFragen = await res.json();
-  return window.quizFragen;
+  quizFragen = await res.json();
 }
- 
-// Promise, auf den andere Skripte warten können: await quizFragenBereit;
-window.quizFragenBereit = ladeQuizFragen();
-
-let frage = true;
-let aktuelleFrage;
 
 function ueberpruefeAntwort(){
     if(frage){
@@ -25,7 +20,7 @@ function ueberpruefeAntwort(){
 }
 
 function neueFrage(){
-    aktuelleFrage = alleFragen[Math.floor(Math.random() * alleFragen.lenght)];
+    aktuelleFrage = quizFragen[Math.floor(Math.random() * quizFragen.lenght)];
     document.getElementById("ausgabe").innerText = zufallsFrage.question;
     frage = false;
 }
