@@ -7,6 +7,7 @@ async function ladeQuizFragen() {
   const res = await fetch('./fragen.json');
   if (!res.ok) throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
   quizFragen = await res.json();
+  ueberpruefeAntwort();
 }
 
 function ueberpruefeAntwort(){
