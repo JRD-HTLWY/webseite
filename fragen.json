@@ -1,182 +1,122 @@
-[
+{
   {
-    "id": 1,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Wer baute 1642 eine der ersten mechanischen Rechenmaschinen (Pascaline)?",
-    "antwort": "Blaise Pascal"
+    "question": " Wer baute 1642 eine der ersten mechanischen Rechenmaschinen (Pascaline)? ",
+    "answer": "Blaise Pascal"
   },
   {
-    "id": 2,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Wer konstruierte die Staffelwalzen-Maschine für alle vier Grundrechenarten?",
-    "antwort": "Gottfried Wilhelm Leibniz"
+    "question": " Wer konstruierte die Staffelwalzen-Maschine für alle vier Grundrechenarten? ",
+    "answer": "Gottfried Wilhelm Leibniz"
   },
   {
-    "id": 3,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Wer entwarf die Analytical Engine?",
-    "antwort": "Charles Babbage"
+    "question": " Wer entwarf die Analytical Engine? ",
+    "answer": "Charles Babbage"
   },
   {
-    "id": 4,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Wer gilt als erste Programmiererin?",
-    "antwort": "Ada Lovelace"
+    "question": " Wer gilt als erste Programmiererin? ",
+    "answer": "Ada Lovelace"
   },
   {
-    "id": 5,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Welche Technik nutzte Jacquard für Webstühle, die später Computer prägte?",
-    "antwort": "Lochkarten"
+    "question": " Welche Technik nutzte Jacquard für Webstühle, die später Computer prägte? ",
+    "answer": "Lochkarten"
   },
   {
-    "id": 6,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Wer setzte Lochkarten bei der US-Volkszählung 1890 ein?",
-    "antwort": "Herman Hollerith"
+    "question": " Wer setzte Lochkarten bei der US-Volkszählung 1890 ein? ",
+    "answer": "Herman Hollerith"
   },
   {
-    "id": 7,
-    "kategorie": "Frühzeit bis 19. Jahrhundert",
-    "frage": "Welche spätere Firma ging aus Holleriths Unternehmen hervor?",
-    "antwort": "IBM"
+    "question": " Welche spätere Firma ging aus Holleriths Unternehmen hervor? ",
+    "answer": "IBM"
   },
   {
-    "id": 8,
-    "kategorie": "1930er–1950er",
-    "frage": "Wer baute 1941 den Z3?",
-    "antwort": "Konrad Zuse"
+    "question": " Wer baute 1941 den Z3? ",
+    "answer": "Konrad Zuse"
   },
   {
-    "id": 9,
-    "kategorie": "1930er–1950er",
-    "frage": "Was war am Z3 technisch besonders?",
-    "antwort": "Erster funktionsfähiger programmgesteuerter Digitalrechner, binär, mit Relais"
+    "question": " Was war am Z3 technisch besonders? ",
+    "answer": "Erster funktionsfähiger programmgesteuerter Digitalrechner, binär, mit Relais"
   },
   {
-    "id": 10,
-    "kategorie": "1930er–1950er",
-    "frage": "Wer beschrieb 1936 das Modell der Turingmaschine?",
-    "antwort": "Alan Turing"
+    "question": " Wer beschrieb 1936 das Modell der Turingmaschine? ",
+    "answer": "Alan Turing"
   },
   {
-    "id": 11,
-    "kategorie": "1930er–1950er",
-    "frage": "Welche Chiffriermaschine wurde in Bletchley Park geknackt?",
-    "antwort": "Enigma"
+    "question": " Welche Chiffriermaschine wurde in Bletchley Park geknackt? ",
+    "answer": "Enigma"
   },
   {
-    "id": 12,
-    "kategorie": "1930er–1950er",
-    "frage": "Wofür wurde der Colossus gebaut?",
-    "antwort": "Entzifferung der Lorenz-Chiffre"
+    "question": " Wofür wurde der Colossus gebaut? ",
+    "answer": "Entzifferung der Lorenz-Chiffre"
   },
   {
-    "id": 13,
-    "kategorie": "1930er–1950er",
-    "frage": "Wie viele Elektronenröhren hatte der ENIAC (1945/46) ungefähr?",
-    "antwort": "Rund 18.000"
+    "question": " Wie viele Elektronenröhren hatte der ENIAC (1945/46) ungefähr? ",
+    "answer": "Rund 18.000"
   },
   {
-    "id": 14,
-    "kategorie": "1930er–1950er",
-    "frage": "Was ist die Kernidee der Von-Neumann-Architektur?",
-    "antwort": "Programm und Daten liegen im selben Speicher"
+    "question": " Was ist die Kernidee der Von-Neumann-Architektur? ",
+    "answer": "Programm und Daten liegen im selben Speicher"
   },
   {
-    "id": 15,
-    "kategorie": "1930er–1950er",
-    "frage": "Wo wurde 1947 der Transistor erfunden?",
-    "antwort": "Bell Labs"
+    "question": " Wo wurde 1947 der Transistor erfunden? ",
+    "answer": "Bell Labs"
   },
   {
-    "id": 16,
-    "kategorie": "1930er–1950er",
-    "frage": "Wer erfand den integrierten Schaltkreis (1958/59)?",
-    "antwort": "Jack Kilby und Robert Noyce"
+    "question": " Wer erfand den integrierten Schaltkreis (1958/59)? ",
+    "answer": "Jack Kilby und Robert Noyce"
   },
   {
-    "id": 17,
-    "kategorie": "1930er–1950er",
-    "frage": "Welcher österreichische Computer war 1958 der erste vollständig transistorisierte auf dem europäischen Kontinent?",
-    "antwort": "Mailüfterl (Heinz Zemanek, TU Wien)"
+    "question": " Welcher österreichische Computer war 1958 der erste vollständig transistorisierte auf dem europäischen Kontinent? ",
+    "answer": "Mailüfterl (Heinz Zemanek, TU Wien)"
   },
   {
-    "id": 18,
-    "kategorie": "1960er–1970er",
-    "frage": "Welche Aussage macht das Mooresche Gesetz?",
-    "antwort": "Die Transistoranzahl pro Chip verdoppelt sich etwa alle zwei Jahre"
+    "question": " Welche Aussage macht das Mooresche Gesetz? ",
+    "answer": "Die Transistoranzahl pro Chip verdoppelt sich etwa alle zwei Jahre"
   },
   {
-    "id": 19,
-    "kategorie": "1960er–1970er",
-    "frage": "Welches Betriebssystem entstand 1969 bei Bell Labs?",
-    "antwort": "Unix (Thompson, Ritchie)"
+    "question": " Welches Betriebssystem entstand 1969 bei Bell Labs? ",
+    "answer": "Unix (Thompson, Ritchie)"
   },
   {
-    "id": 20,
-    "kategorie": "1960er–1970er",
-    "frage": "Welches Netz verschickte 1969 die erste Nachricht zwischen UCLA und Stanford?",
-    "antwort": "ARPANET"
+    "question": " Welches Netz verschickte 1969 die erste Nachricht zwischen UCLA und Stanford? ",
+    "answer": "ARPANET"
   },
   {
-    "id": 21,
-    "kategorie": "1960er–1970er",
-    "frage": "Welcher Chip war 1971 der erste kommerzielle Mikroprozessor?",
-    "antwort": "Intel 4004"
+    "question": " Welcher Chip war 1971 der erste kommerzielle Mikroprozessor? ",
+    "answer": "Intel 4004"
   },
   {
-    "id": 22,
-    "kategorie": "1960er–1970er",
-    "frage": "Welcher Bausatzcomputer löste 1975 den Heimcomputer-Boom aus?",
-    "antwort": "Altair 8800"
+    "question": " Welcher Bausatzcomputer löste 1975 den Heimcomputer-Boom aus? ",
+    "answer": "Altair 8800"
   },
   {
-    "id": 23,
-    "kategorie": "1960er–1970er",
-    "frage": "Wer gründete 1976 Apple?",
-    "antwort": "Steve Jobs, Steve Wozniak (und Ronald Wayne)"
+    "question": " Wer gründete 1976 Apple? ",
+    "answer": "Steve Jobs, Steve Wozniak (und Ronald Wayne)"
   },
   {
-    "id": 24,
-    "kategorie": "1980er–1990er",
-    "frage": "Von welcher Firma stammte das Betriebssystem des IBM PC (1981)?",
-    "antwort": "Microsoft (MS-DOS)"
+    "question": " Von welcher Firma stammte das Betriebssystem des IBM PC (1981)? ",
+    "answer": "Microsoft (MS-DOS)"
   },
   {
-    "id": 25,
-    "kategorie": "1980er–1990er",
-    "frage": "Welcher Rechner brachte 1984 die grafische Oberfläche in den Massenmarkt?",
-    "antwort": "Apple Macintosh"
+    "question": " Welcher Rechner brachte 1984 die grafische Oberfläche in den Massenmarkt? ",
+    "answer": "Apple Macintosh"
   },
   {
-    "id": 26,
-    "kategorie": "1980er–1990er",
-    "frage": "Welcher Heimcomputer von 1982 gilt als meistverkaufter seiner Art?",
-    "antwort": "Commodore 64"
+    "question": " Welcher Heimcomputer von 1982 gilt als meistverkaufter seiner Art? ",
+    "answer": "Commodore 64"
   },
   {
-    "id": 27,
-    "kategorie": "1980er–1990er",
-    "frage": "Wer erfand 1989 das World Wide Web, und wo?",
-    "antwort": "Tim Berners-Lee, CERN"
+    "question": " Wer erfand 1989 das World Wide Web, und wo? ",
+    "answer": "Tim Berners-Lee, CERN"
   },
   {
-    "id": 28,
-    "kategorie": "1980er–1990er",
-    "frage": "Wie hieß der erste weit verbreitete grafische Webbrowser (1993)?",
-    "antwort": "Mosaic"
+    "question": " Wie hieß der erste weit verbreitete grafische Webbrowser (1993)? ",
+    "answer": "Mosaic"
   },
   {
-    "id": 29,
-    "kategorie": "1980er–1990er",
-    "frage": "Wer begann 1991 die Entwicklung von Linux?",
-    "antwort": "Linus Torvalds"
+    "question": " Wer begann 1991 die Entwicklung von Linux? ",
+    "answer": "Linus Torvalds"
   },
   {
-    "id": 30,
-    "kategorie": "1980er–1990er",
-    "frage": "Welchen Weltmeister schlug Deep Blue 1997 im Schach?",
-    "antwort": "Garri Kasparow"
-  }
-]
+    "question": " Welchen Weltmeister schlug Deep Blue 1997 im Schach? ",
+    "answer": "Garri Kasparow"
+  },
+}
