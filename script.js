@@ -2,7 +2,7 @@
 window.quizFragen = [];
  
 async function ladeQuizFragen() {
-  const res = await fetch('./computergeschichte.json');
+  const res = await fetch('./fragen.json');
   if (!res.ok) throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
   window.quizFragen = await res.json();
   return window.quizFragen;
