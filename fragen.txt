@@ -1,0 +1,39 @@
+**Frühzeit bis 19. Jahrhundert**
+1. Wer baute 1642 eine der ersten mechanischen Rechenmaschinen (Pascaline)? *Blaise Pascal*
+2. Wer konstruierte die Staffelwalzen-Maschine für alle vier Grundrechenarten? *Gottfried Wilhelm Leibniz*
+3. Wer entwarf die Analytical Engine? *Charles Babbage*
+4. Wer gilt als erste Programmiererin? *Ada Lovelace*
+5. Welche Technik nutzte Jacquard für Webstühle, die später Computer prägte? *Lochkarten*
+6. Wer setzte Lochkarten bei der US-Volkszählung 1890 ein? *Herman Hollerith*
+7. Welche spätere Firma ging aus Holleriths Unternehmen hervor? *IBM*
+
+**1930er–1950er**
+8. Wer baute 1941 den Z3? *Konrad Zuse*
+9. Was war am Z3 technisch besonders? *Erster funktionsfähiger programmgesteuerter Digitalrechner, binär, mit Relais*
+10. Wer beschrieb 1936 das Modell der Turingmaschine? *Alan Turing*
+11. Welche Chiffriermaschine wurde in Bletchley Park geknackt? *Enigma*
+12. Wofür wurde der Colossus gebaut? *Entzifferung der Lorenz-Chiffre*
+13. Wie viele Elektronenröhren hatte der ENIAC (1945/46) ungefähr? *Rund 18.000*
+14. Was ist die Kernidee der Von-Neumann-Architektur? *Programm und Daten liegen im selben Speicher*
+15. Wo wurde 1947 der Transistor erfunden? *Bell Labs*
+16. Wer erfand den integrierten Schaltkreis (1958/59)? *Jack Kilby und Robert Noyce*
+17. Welcher österreichische Computer war 1958 der erste vollständig transistorisierte auf dem europäischen Kontinent? *Mailüfterl (Heinz Zemanek, TU Wien)*
+
+**1960er–1970er**
+18. Welche Aussage macht das Mooresche Gesetz? *Die Transistoranzahl pro Chip verdoppelt sich etwa alle zwei Jahre*
+19. Welches Betriebssystem entstand 1969 bei Bell Labs? *Unix (Thompson, Ritchie)*
+20. Welches Netz verschickte 1969 die erste Nachricht zwischen UCLA und Stanford? *ARPANET*
+21. Welcher Chip war 1971 der erste kommerzielle Mikroprozessor? *Intel 4004*
+22. Welcher Bausatzcomputer löste 1975 den Heimcomputer-Boom aus? *Altair 8800*
+23. Wer gründete 1976 Apple? *Steve Jobs, Steve Wozniak (und Ronald Wayne)*
+
+**1980er–1990er**
+24. Von welcher Firma stammte das Betriebssystem des IBM PC (1981)? *Microsoft (MS-DOS)*
+25. Welcher Rechner brachte 1984 die grafische Oberfläche in den Massenmarkt? *Apple Macintosh*
+26. Welcher Heimcomputer von 1982 gilt als meistverkaufter seiner Art? *Commodore 64*
+27. Wer erfand 1989 das World Wide Web, und wo? *Tim Berners-Lee, CERN*
+28. Wie hieß der erste weit verbreitete grafische Webbrowser (1993)? *Mosaic*
+29. Wer begann 1991 die Entwicklung von Linux? *Linus Torvalds*
+30. Welchen Weltmeister schlug Deep Blue 1997 im Schach? *Garri Kasparow*
+
+Soll ich daraus ein interaktives Quiz mit Antwortmöglichkeiten machen?
