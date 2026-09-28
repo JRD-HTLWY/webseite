@@ -1,3 +1,16 @@
+
+window.quizFragen = [];
+ 
+async function ladeQuizFragen() {
+  const res = await fetch('./fragen.json');
+  if (!res.ok) throw new Error(`JSON laden fehlgeschlagen: HTTP ${res.status}`);
+  window.quizFragen = await res.json();
+  return window.quizFragen;
+}
+ 
+// Promise, auf den andere Skripte warten können: await quizFragenBereit;
+window.quizFragenBereit = ladeQuizFragen();
+
 let frage = true;
 
 function ueberpruefeAntwort(){
