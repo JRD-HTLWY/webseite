@@ -20,8 +20,9 @@ function ueberpruefeAntwort(){
 }
 
 function neueFrage(){
+    console.log("neueFrage() geoeffnet");
     aktuelleFrage = quizFragen[Math.floor(Math.random() * quizFragen.lenght)];
-    document.getElementById("ausgabe").innerText = zufallsFrage.question;
+    document.getElementById("ausgabe").innerText = aktuelleFrage.question;
     frage = false;
 }
 
