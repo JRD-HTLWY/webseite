@@ -26,3 +26,32 @@ button{
 #ausgabe{
   font-size: 50px;
 }
+
+.mark {
+  width: 220px;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  /* FAST vollständig transparent */
+  background: transparent;
+
+  /* Nur ein sehr dezenter Rand */
+  border: 2px solid rgba(255, 255, 255, 0.18);
+
+  /* Fragezeichen */
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 150px;
+  font-weight: 300;
+  line-height: 1;
+
+  /* Dezenter Glow */
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+
+  /* Kein weißer Hintergrund */
+  box-shadow: none;
+}
