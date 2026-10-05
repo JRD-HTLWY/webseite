@@ -38,11 +38,11 @@ function neueFrage(){
 
 function loesung(){
     let eingabe = document.getElementById("eingabe");
-    if(eingabe.value == aktuelleFrage.answer){
+    if(eingabe.value.toLowerCase() == aktuelleFrage.answer.toLowerCase()){
         ausgabe.innerText = "Wunderbar";
     }
     else{
-        ausgabe.innerText = "Leider falsch";
+        ausgabe.innerText = "Leider falsch, Richtige Antwort: " + aktuelleFrage.answer;
     }
     frage = true;
 }
