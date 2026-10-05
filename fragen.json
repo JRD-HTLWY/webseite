@@ -1,4 +1,4 @@
-{
+[
   {
     "question": " Wer baute 1642 eine der ersten mechanischen Rechenmaschinen (Pascaline)? ",
     "answer": "Blaise Pascal"
@@ -118,5 +118,5 @@
   {
     "question": " Welchen Weltmeister schlug Deep Blue 1997 im Schach? ",
     "answer": "Garri Kasparow"
-  },
-}
+  }
+]
