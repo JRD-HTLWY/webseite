@@ -32,14 +32,14 @@ function ueberpruefeAntwort(){
 
 function neueFrage(){
     console.log("neueFrage() geoeffnet");
-    aktuelleFrage = quizFragen[Math.floor(Math.random() * quizFragen.lenght)];
+    aktuelleFrage = quizFragen[Math.floor(Math.random() * quizFragen.length)];
     document.getElementById("ausgabe").innerText = aktuelleFrage.question;
     frage = false;
 }
 
 function loesung(){
     let eingabe = document.getElementById("eingabe");
-    if(eingabe.innerText == aktuelleFrage.answer){
+    if(eingabe.value == aktuelleFrage.answer){
         ausgabe.innerText = "Wunderbar";
     }
     else{
