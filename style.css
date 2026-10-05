@@ -21,3 +21,7 @@ input{
 button{
 	height: 50px;
 }
+
+#ausgabe{
+  font-size: 50px;
+}
