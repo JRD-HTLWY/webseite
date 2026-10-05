@@ -27,7 +27,6 @@ function ueberpruefeAntwort(){
     else{
         loesung();
     }
-    document.getElementById("ausgabe").innerText = "Hallo Welt";
 }
 
 function neueFrage(){
